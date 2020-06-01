@@ -33,7 +33,7 @@ public class sql_database extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
-
+//FUNCTION TO ADD CONTACTS
     public void add_contact(class_contacts c)
     {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -43,7 +43,7 @@ public class sql_database extends SQLiteOpenHelper {
         db.insert(TABLE_NAME,null,values);
         db.close();
     }
-
+//FUNCTION TO GET SINGLE CONTACT
     public class_contacts get_contact(int id)
     {
         SQLiteDatabase db = this.getReadableDatabase();
@@ -54,7 +54,7 @@ public class sql_database extends SQLiteOpenHelper {
             class_contacts data = new class_contacts(Integer.parseInt(cursor.getString(0)),cursor.getString(1),cursor.getString(2));
             return data;
     }
-
+//GET ALL CONTACTS
     public List<class_contacts> getAll_contacts()
     {
         SQLiteDatabase db = this.getReadableDatabase();
@@ -73,4 +73,8 @@ public class sql_database extends SQLiteOpenHelper {
         }
         return contacts;
     }
+
+//UPDATE ANY CONTACT
+
+//DELETE ANY CONTACT
 }
