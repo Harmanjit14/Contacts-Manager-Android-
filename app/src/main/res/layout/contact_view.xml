@@ -61,8 +61,8 @@
             android:text="New Contact"
             android:textSize="15dp"
             android:layout_marginRight="5dp"
-            android:background="#e0c3c1"
-            android:textColor="#a9558e"
+            android:background="#e16428"
+            android:textColor="#f6e9e9"
             android:id="@+id/add">
         </Button>
         <Button
@@ -72,8 +72,8 @@
             android:layout_height="50dp"
             android:text="Edit contact"
             android:layout_marginLeft="5dp"
-            android:background="#e0c3c1"
-            android:textColor="#a9558e"
+            android:background="#e16428"
+            android:textColor="#f6e9e9"
             android:id="@+id/edit">
 
         </Button>
