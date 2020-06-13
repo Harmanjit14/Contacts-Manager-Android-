@@ -23,6 +23,7 @@
         android:textSize="20dp"
         android:textAllCaps="true"
         android:padding="10dp"
+        android:id="@+id/c1_contact"
         android:textColor="@color/colorAccent"
         ></TextView>
 

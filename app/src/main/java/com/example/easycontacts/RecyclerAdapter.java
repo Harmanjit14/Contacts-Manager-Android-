@@ -18,7 +18,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-
+        holder.getShow_name().setText(Integer.toString(position));
+        holder.getShow_contact().setText(Integer.toString(position));
     }
 
     @Override
