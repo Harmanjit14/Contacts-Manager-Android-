@@ -71,13 +71,15 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/phone_in"
         android:layout_centerHorizontal="true"
+        android:background="#e16428"
         android:padding="10dp"
         android:text="add"
         android:textAllCaps="true"
-        android:textSize="18dp"
-        android:background="#e16428"
         android:textColor="#f6e9e9"
-        android:textStyle="bold"></Button>
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/phone_in"
+        android:layout_marginTop="15dp">
+    </Button>
 </RelativeLayout>
